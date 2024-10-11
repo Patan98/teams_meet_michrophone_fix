@@ -9,7 +9,15 @@ Although this function seems theoretically deactivable, it is not, and the syste
 With this script it does not matter if the application you are using will try to lower the microphone volume. <br />
 
 ## Usage
-Simply start the application in loop mode with the desired microphone volume (0 to 100) as argument.
+Replace:
+
+    alsa_input.pci-0000_00_1b.0.analog-stereo
+
+With your input device, you can find it here:
+
+    pacmd list
+    
+Now simply start the application in loop mode with the desired microphone volume (0 to 100) as argument.
 
 ```
 #!/bin/bash
