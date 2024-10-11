@@ -5,7 +5,7 @@
 ## Michrophone fix for Microsoft Teams and Goofle Meet
 
 The point of this script is to work around an annoying problem that seems to occur with all major video conferencing web services on Linux, the automatic setting of the microphone volume. <br />
-Although this function seems theoretically deactivable, it is not, and the system microphone volume ends up systematically lowered to a level low enough to make it possible to use it. <br />
+Although this function seems theoretically deactivable, it is not, and the system microphone volume ends up systematically lowered to a level low enough to make it impossible to use it. <br />
 With this script it does not matter if the application you are using will try to lower the microphone volume. <br />
 
 ## Usage
