@@ -19,6 +19,8 @@ With your input device, you can find it here:
     
 Now simply start the application in loop mode with the desired microphone volume (0 to 100) as argument.
 
+### Script 
+
 ```
 #!/bin/bash
 
